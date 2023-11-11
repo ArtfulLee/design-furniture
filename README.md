@@ -13,7 +13,7 @@
   - From [nvm](https://github.com/nvm-sh/nvm) (recomended)
 - Install dependencies
   ```bash
-  cd vite-frontend-312
+  cd design-furniture
   npm install
   ```
 - Run server
