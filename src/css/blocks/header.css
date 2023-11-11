@@ -169,10 +169,6 @@
     width: auto;
   }
 
-  .site-nav--closed .site-nav__list {
-    display: none;
-  }
-
   .site-nav--closed .site-nav__button {
     display: block;
     width: 29px;
@@ -242,6 +238,10 @@
     display: flex;
   }
 
+  .site-nav--closed .site-nav__list {
+    display: none;
+  }
+
   .site-nav--no-js .site-nav__button {
     display: none;
   }
@@ -277,7 +277,7 @@
 .user-nav__item--search a {
   width: 24px;
   height: 28px;
-  background-image: url('../img/icon-magnifier.svg');
+  background-image: url('/src/img/icon-magnifier.svg');
   background-repeat: no-repeat;
   background-size: 24px 27px;
   background-position: center bottom;
@@ -285,7 +285,7 @@
 
 .user-nav__item--cart a {
   width: 33px;
-  background-image: url('../img/icon-cart.svg');
+  background-image: url('/src/img/icon-cart.svg');
   background-size: 33px 28px;
   background-position: center;
 }
