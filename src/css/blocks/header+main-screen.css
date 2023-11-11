@@ -347,9 +347,9 @@
   margin-bottom: 0 0 20px 0;
 }
 
-.main-screen .swiper-pagination-bullets .swiper-pagination-bullet-active {
+/* .main-screen .swiper-pagination-bullets .swiper-pagination-bullet-active {
   margin-top: -20px;
-}
+} */
 
 .main-screen .swiper-slide {
   background: linear-gradient(to right, #f9fdff 66.1%, #fceae8 66.1%);
