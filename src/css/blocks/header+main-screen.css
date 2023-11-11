@@ -72,7 +72,7 @@
   .page-header__wrapper {
     flex-wrap: wrap;
     width: 100%;
-    padding: 20px 14px 0 16px;
+    padding: 20px 16px 0;
     box-sizing: border-box;
     background: #fff;
   }
