@@ -1,1 +1,9 @@
-@import "src/css/blocks/header+main-screen.css";
+/* Main */
+@import "/src/css/main.css";
+
+/* Fonts */
+@import '/src/css/fonts.css';
+
+/* Sections */
+@import '/src/css/blocks/header+main-screen.css';
+@import '/src/css/blocks/new-products.css';
