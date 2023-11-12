@@ -166,7 +166,17 @@
   }
 
   .site-nav--closed {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    z-index: 100;
     width: auto;
+    height: 0;
+    padding-top: 0;
+    box-sizing: content-box;
+    background-color: #303032;
+    overflow: auto;
+    transition: height 0.3s;
   }
 
   .site-nav__button-burger {
@@ -181,6 +191,7 @@
     border: none;
     outline: 0;
     cursor: pointer;
+    transition: background-image 0.3s;
   }
 
   .site-nav--opened {
@@ -194,6 +205,7 @@
     box-sizing: border-box;
     background-color: #303032;
     overflow: auto;
+    transition: height 0.3s;
   }
 
   .site-nav--opened .site-nav__list {
@@ -224,6 +236,7 @@
     border: none;
     outline: 0;
     cursor: pointer;
+    transition: background-image 0.3s;
   }
 
   .site-nav--no-js {
