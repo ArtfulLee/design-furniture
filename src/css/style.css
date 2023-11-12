@@ -4,6 +4,9 @@
 /* Fonts */
 @import '/src/css/fonts.css';
 
+/* Color */
+@import '/src/css/color.css';
+
 /* Sections */
 @import '/src/css/blocks/header.css';
 @import '/src/css/blocks/main-screen.css';

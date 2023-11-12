@@ -1,4 +1,9 @@
 :root {
   /* Background */
-  --background-color: #f9fdff;
+  --background-color-primary: #f9fdff;
+  --background-color-secondary: #faece9;
+  --background-color-light: #fff;
+
+  /* Text */
+  --text-color-primary: #303032;
 }
