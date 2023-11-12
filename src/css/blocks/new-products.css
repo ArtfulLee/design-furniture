@@ -1,0 +1,113 @@
+.new-products {
+  padding-top: 100px;
+}
+
+.new-products__grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 30px 30px;
+  grid-auto-flow: row;
+}
+
+.new-products__header {
+  align-self: center;
+}
+
+.new-products__header::after {
+  position: absolute;
+  content: '';
+  width: 90px;
+  height: 4px;
+  background-color: var(--text-color-primary);
+}
+
+.new-products_item-name,
+.new-products_item-price {
+  text-align: center;
+}
+
+.new-products_item-name {
+  color: var(--text-color-primary);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.new-products_item-price {
+  color: var(--text-color-primary);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.new-products__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 289px;
+  width: 270px;
+  background-color: var(--background-color-light);
+}
+
+.new-products__item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.new-products__item_colored {
+  background-color: var(--background-color-secondary);
+}
+
+.new-products__item-big {
+  height: 614px;
+  width: 570px;
+  background-color: var(--background-color-light);
+  grid-row: 1 / 3;
+  grid-column: 3 / 3;
+}
+
+@media (max-width: 1439px) {
+  .new-products__grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .new-products__header {
+    width: 100%;
+  }
+
+  .new-products__item,
+  .new-products__item-big {
+    width: 31%;
+    min-width: 288px;
+    height: 289px;
+  }
+
+  .new-products__item-big img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .new-products__item,
+  .new-products__item-big {
+    width: 47%;
+  }
+}
+
+@media (max-width: 767px) {
+  .new-products__item,
+  .new-products__item-big {
+    width: 100%;
+  }
+}

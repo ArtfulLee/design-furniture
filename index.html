@@ -1,111 +1,189 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Callium - продажа дизайнерской мебели" />
+    <title>Callium</title>
+    <link rel="preload" href="src/fonts/open-sans.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="src/fonts/playfair-display.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="src/fonts/playfair-display-bold.woff2" as="font" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/css/normalize.css" />
+    <link rel="stylesheet" href="src/css/swiper.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Callium - продажа дизайнерской мебели">
-  <title>App</title>
-  <link rel="preload" href="src/fonts/open-sans.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="src/fonts/playfair-display.woff2" as="font" crossorigin="anonymous">
-  <link rel="preload" href="src/fonts/playfair-display-bold.woff2" as="font" crossorigin="anonymous">
-  <link rel="stylesheet" href="src/css/normalize.css">
-  <link rel="stylesheet" href="src/css/swiper.css">
-  <link rel="stylesheet" href="src/css/style.css">
-</head>
-
-<body>
-  <header class="page-header">
-    <div class="page-header__wrapper container">
-      <div class="page-header__logo">
-        <img src="src/img/logo.svg" width="20" height="20" alt="Логотип Callium">
-      </div>
-      <nav class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
-        <ul class="site-nav__list">
-          <li class="site-nav__item"><a href="#">Мебель</a></li>
-          <li class="site-nav__item"><a href="#">Освещение</a></li>
-          <li class="site-nav__item"><a href="#">Текстиль</a></li>
+  <body>
+    <header class="page-header">
+      <div class="page-header__wrapper container">
+        <div class="page-header__logo">
+          <img src="src/img/logo.svg" width="20" height="20" alt="Логотип Callium" />
+        </div>
+        <nav class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item"><a href="#">Мебель</a></li>
+            <li class="site-nav__item"><a href="#">Освещение</a></li>
+            <li class="site-nav__item"><a href="#">Текстиль</a></li>
+          </ul>
+        </nav>
+        <ul class="user-nav page-header__user-nav">
+          <li class="user-nav__item user-nav__item--search">
+            <a href="#" aria-label="Поиск по сайту"><span class="visually-hidden">Поиск по сайту</span></a>
+          </li>
+          <li class="user-nav__item user-nav__item--cart">
+            <a href="#" aria-label="Корзина"><span class="visually-hidden">Корзина</span></a>
+          </li>
         </ul>
-        <button class="site-nav__button" type="button" aria-label="Показать/Скрыть меню"></button>
-      </nav>
-      <ul class="user-nav page-header__user-nav">
-        <li class="user-nav__item user-nav__item--search">
-          <a href="#" aria-label="Поиск по сайту"><span class="visually-hidden">Поиск по сайту</span></a>
-        </li>
-        <li class="user-nav__item user-nav__item--cart">
-          <a href="#" aria-label="Корзина"><span class="visually-hidden">Корзина</span></a>
-        </li>
-      </ul>
-    </div>
-  </header>
+        <button
+          class="site-nav__button site-nav__button-burger"
+          type="button"
+          aria-label="Показать/Скрыть меню"
+        ></button>
+      </div>
+    </header>
 
-  <main class="page-main">
-    <h1>Дизайнерская мебель "Callium"</h1>
-    <section class="main-screen container">
-      <div class="swiper-container main-screen__slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="product product--slider">
-              <div class="product__info">
-                <h2>Дизайнерская мебель</h2>
-                <h3>Кресло "Антиква"</h3>
-                <p><span>$380</span>$240</p>
-                <button class="product__button" type="button">Купить</button>
+    <main class="page-main">
+      <h1>Дизайнерская мебель "Callium"</h1>
+      <section class="main-screen container">
+        <div class="swiper-container main-screen__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="src/img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
               </div>
-              <div class="product__image">
-                <img src="src/img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
+            </div>
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="src/img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="src/img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product product--slider">
+                <div class="product__info">
+                  <h2>Дизайнерская мебель</h2>
+                  <h3>Кресло "Антиква"</h3>
+                  <p><span>$380</span>$240</p>
+                  <button class="product__button" type="button">Купить</button>
+                </div>
+                <div class="product__image">
+                  <img
+                    src="src/img/main-chair-desktop.jpg"
+                    srcset="src/img/main-chair-desktop@2x.jpg 2x"
+                    width="532"
+                    height="751"
+                    alt="Кресло Антиква"
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="product product--slider">
-              <div class="product__info">
-                <h2>Дизайнерская мебель</h2>
-                <h3>Кресло "Антиква"</h3>
-                <p><span>$380</span>$240</p>
-                <button class="product__button" type="button">Купить</button>
-              </div>
-              <div class="product__image">
-                <img src="src/img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
-              </div>
-            </div>
+          <div class="swiper-scrollbar main-screen__slider-scrollbar"></div>
+          <div class="swiper-pagination main-screen__slider-pagination"></div>
+        </div>
+      </section>
+
+      <section class="new-products container">
+        <div class="new-products__grid">
+          <div class="new-products__header">
+            <h2>НОВИНКИ</h2>
           </div>
-          <div class="swiper-slide">
-            <div class="product product--slider">
-              <div class="product__info">
-                <h2>Дизайнерская мебель</h2>
-                <h3>Кресло "Антиква"</h3>
-                <p><span>$380</span>$240</p>
-                <button class="product__button" type="button">Купить</button>
-              </div>
-              <div class="product__image">
-                <img src="src/img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
-              </div>
-            </div>
+          <div class="new-products__item">
+            <a href="#">
+              <img
+                src="src/img/chair-twilight-desktop.jpg"
+                srcset="src/img/chair-twilight-desktop@2x.jpg 2x"
+                alt="chair-twilight-desktop"
+              />
+              <div class="new-products_item-name">Стул «Смеркается»</div>
+              <div class="new-products_item-price">$280</div>
+            </a>
           </div>
-          <div class="swiper-slide">
-            <div class="product product--slider">
-              <div class="product__info">
-                <h2>Дизайнерская мебель</h2>
-                <h3>Кресло "Антиква"</h3>
-                <p><span>$380</span>$240</p>
-                <button class="product__button" type="button">Купить</button>
-              </div>
-              <div class="product__image">
-                <img src="src/img/main-chair-desktop.jpg" srcset="img/main-chair-desktop@2x.jpg 2x" width="532" height="751" alt="Кресло Антиква">
-              </div>
-            </div>
+          <div class="new-products__item">
+            <a href="#">
+              <img
+                src="src/img/chandelier-desktop.jpg"
+                srcset="src/img/chandelier-desktop@2x.jpg 2x"
+                alt="chandelier-desktop"
+              />
+              <div class="new-products_item-name">Люстра «Облако»</div>
+              <div class="new-products_item-price">$250</div>
+            </a>
+          </div>
+          <div class="new-products__item new-products__item_colored">
+            <a href="#">
+              <img
+                src="src/img/table-cream-desktop.png"
+                srcset="src/img/table-cream-desktop@2x.png 2x"
+                alt="table-cream-desktop"
+              />
+              <div class="new-products_item-name">Стол «Крем брюле»</div>
+              <div class="new-products_item-price">$320</div>
+            </a>
+          </div>
+          <div class="new-products__item new-products__item-big">
+            <a href="#">
+              <img
+                src="src/img/chair-white-desktop.jpg"
+                srcset="src/img/chair-white-desktop@2x.jpg 2x"
+                alt="chair-white-desktop"
+              />
+              <div class="new-products_item-name">Стул офисный «Белый шоколад»</div>
+              <div class="new-products_item-price">$120</div>
+            </a>
           </div>
         </div>
-        <div class="swiper-scrollbar main-screen__slider-scrollbar"></div>
-        <div class="swiper-pagination main-screen__slider-pagination"></div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <script src="src/js/vendor/swiper.js"></script>
-  <script src="src/js/lib/slider-main.js"></script>
-
-</body>
-
+    <script src="src/js/vendor/swiper.js"></script>
+    <script src="src/js/lib/slider-main.js"></script>
+    <script src="src/js/burger-menu/burger-menu.js"></script>
+  </body>
 </html>
