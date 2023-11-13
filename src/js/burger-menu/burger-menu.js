@@ -6,10 +6,12 @@ function burgerMenu() {
     burger.classList.remove('site-nav__button-burger')
     burger.classList.add('site-nav__button-cross')
     navBurger.classList.replace('site-nav--closed', 'site-nav--opened')
+    document.body.style.setProperty('overflow-y', 'hidden')
   } else {
     burger.classList.remove('site-nav__button-cross')
     burger.classList.add('site-nav__button-burger')
     navBurger.classList.replace('site-nav--opened', 'site-nav--closed')
+    document.body.style.removeProperty('overflow-y')
   }
 }
 
