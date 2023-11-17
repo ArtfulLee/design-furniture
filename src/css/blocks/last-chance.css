@@ -1,0 +1,31 @@
+.last-chance {
+  position: relative;
+}
+
+.last-chance::before {
+  position: absolute;
+  right: 545px;
+  content: '';
+  width: 1025px;
+  height: 545px;
+  z-index: -1;
+  background: var(--background-color-secondary);
+}
+
+.last-chance__header::after {
+  position: absolute;
+  content: '';
+  width: 90px;
+  height: 4px;
+  background-color: var(--text-color-primary);
+}
+
+.last-chance__slider {
+  padding-top: 25px;
+}
+
+.last-chance__item {
+  background-color: var(--background-color-light);
+  max-width: 208px;
+  max-height: 400px;
+}

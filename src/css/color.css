@@ -4,6 +4,9 @@
   --background-color-secondary: #faece9;
   --background-color-light: #fff;
 
+  /* Buttons */
+  --button-background-primary: #303032;
+
   /* Text */
   --text-color-primary: #303032;
   --text-color-secondary: #444348;
