@@ -216,12 +216,12 @@
 
 .swiper-button-prev.swiper-button-white,
 .swiper-button-next.swiper-button-white {
-  --swiper-navigation-color: #fff;
+  --swiper-navigation-color: #ffffff;
 }
 
 .swiper-button-prev.swiper-button-black,
 .swiper-button-next.swiper-button-black {
-  --swiper-navigation-color: #000;
+  --swiper-navigation-color: #000000;
 }
 
 .swiper-button-lock {
@@ -295,7 +295,7 @@
   height: 8px;
   display: inline-block;
   border-radius: 100%;
-  background: #000;
+  background: #000000;
   opacity: 0.2;
 }
 
@@ -304,7 +304,6 @@ button.swiper-pagination-bullet {
   margin: 0;
   padding: 0;
   box-shadow: none;
-  appearance: none;
   appearance: none;
 }
 
@@ -395,11 +394,11 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-pagination-white {
-  --swiper-pagination-color: #fff;
+  --swiper-pagination-color: #ffffff;
 }
 
 .swiper-pagination-black {
-  --swiper-pagination-color: #000;
+  --swiper-pagination-color: #000000;
 }
 
 .swiper-pagination-lock {
@@ -496,11 +495,11 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-lazy-preloader-white {
-  --swiper-preloader-color: #fff;
+  --swiper-preloader-color: #ffffff;
 }
 
 .swiper-lazy-preloader-black {
-  --swiper-preloader-color: #000;
+  --swiper-preloader-color: #000000;
 }
 
 @keyframes swiper-preloader-spin {
@@ -586,7 +585,7 @@ button.swiper-pagination-bullet {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #000000;
   opacity: 0.6;
   filter: blur(50px);
   z-index: 0;

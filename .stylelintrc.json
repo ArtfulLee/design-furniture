@@ -6,6 +6,8 @@
     "no-descending-specificity": null,
     "declaration-colon-newline-after": null,
     "value-list-comma-newline-after": null,
-    "color-hex-length" : "long"
+    "color-hex-length" : "long",
+    "declaration-block-no-shorthand-property-overrides": null,
+    "font-family-no-missing-generic-family-keyword": null
   }
 }

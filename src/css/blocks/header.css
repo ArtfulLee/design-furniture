@@ -66,7 +66,7 @@
   .page-header {
     padding-bottom: 16px;
     overflow: visible;
-    background: #fff;
+    background: #ffffff;
   }
 
   .page-header__wrapper {
@@ -74,7 +74,7 @@
     width: 100%;
     padding: 20px 16px 0;
     box-sizing: border-box;
-    background: #fff;
+    background: #ffffff;
   }
 
   .page-header__wrapper::before {
@@ -221,7 +221,7 @@
   .site-nav--opened .site-nav__item a {
     font-size: 18px;
     line-height: 25px;
-    color: #fff;
+    color: #ffffff;
   }
 
   .site-nav__button-cross {
