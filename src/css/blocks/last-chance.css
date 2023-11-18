@@ -2,6 +2,14 @@
   position: relative;
 }
 
+.last-chance__for-image {
+  display: flex;
+  justify-content: end;
+  width: auto;
+  height: 255px;
+  background-color: var(--background-color-light);
+}
+
 .last-chance::before {
   position: absolute;
   right: 545px;
@@ -25,7 +33,76 @@
 }
 
 .last-chance__item {
+  width: 208px;
+  border-top: 5px solid var(--background-color-light);
+
+  /*   height: 395px; */
+}
+
+.last-chance__item:hover {
+  border-top: 5px solid var(--button-background-primary);
+}
+
+.last-chance__item-name {
+  padding: 31px 20px 0;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   background-color: var(--background-color-light);
-  max-width: 208px;
-  max-height: 400px;
+}
+
+.last-chance__price {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 0 20px;
+  background-color: var(--background-color-light);
+}
+
+.last-chance__new-price {
+  color: #303032;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.last-chance__old-price {
+  color: #979798;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+
+.last-chance__item img {
+  background-color: var(--background-color-light);
+}
+
+.last-chance__item:hover img {
+  background-color: var(--background-color-light);
+}
+
+.last-chance__item button {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.last-chance__item:hover button {
+  color: var(--background-color-light);
+  background-color: var(--button-background-primary);
+  border: 1px solid var(--button-background-primary);
+}
+
+@media (max-width: 767px) {
+  .last-chance__item {
+    width: 100%;
+  }
 }

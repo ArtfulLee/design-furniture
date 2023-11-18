@@ -111,4 +111,9 @@
   .new-products__item-big {
     width: 100%;
   }
+
+  .new-products {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
