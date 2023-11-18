@@ -28,6 +28,7 @@ a {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -38,4 +39,16 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+/* AtomClass */
+
+.mt-73 {
+  padding-top: 73px;
+}
+
+@media (max-width: 1023px) {
+  .mt-73 {
+    padding-top: 0;
+  }
 }

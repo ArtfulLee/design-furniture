@@ -68,7 +68,7 @@
   margin-top: -20px;
   font-size: 40px;
   line-height: 58px;
-  color: #000;
+  color: #000000;
 }
 
 .main-screen .swiper-pagination-bullet-active::after {
@@ -78,7 +78,7 @@
   right: -20px;
   width: 2px;
   height: 54px;
-  background-color: #000;
+  background-color: #000000;
 }
 
 @media (max-width: 1023px) {
@@ -189,7 +189,7 @@
   line-height: 22px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   background-color: #303032;
   border: 0;
   cursor: pointer;
@@ -256,7 +256,7 @@
   position: relative;
   margin-bottom: 65px;
   padding-top: 30px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 0 20px rgb(0 0 0 / 5%);
   cursor: pointer;
 }
@@ -294,7 +294,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #000;
+  color: #000000;
   margin: 0 0 10px;
 }
 
@@ -334,7 +334,7 @@
   line-height: 22px;
   letter-spacing: 0.13em;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   background-color: #303032;
   border: 0;
   outline: 0;

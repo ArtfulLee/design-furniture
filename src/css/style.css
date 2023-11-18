@@ -7,8 +7,12 @@
 /* Color */
 @import '/src/css/color.css';
 
+/* Components */
+@import '/src/css/components/buttons.css';
+
 /* Sections */
 @import '/src/css/blocks/header.css';
 @import '/src/css/blocks/main-screen.css';
 @import '/src/css/blocks/new-products.css';
 @import '/src/css/blocks/reviews.css';
+@import '/src/css/blocks/last-chance.css';

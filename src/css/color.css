@@ -1,8 +1,14 @@
 :root {
+  /* ??? */
+  --color-141215: #141215;
+
   /* Background */
   --background-color-primary: #f9fdff;
   --background-color-secondary: #faece9;
-  --background-color-light: #fff;
+  --background-color-light: #ffffff;
+
+  /* Buttons */
+  --button-background-primary: #303032;
 
   /* Text */
   --text-color-primary: #303032;
