@@ -47,7 +47,7 @@ img {
   padding-top: 73px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   .mt-73 {
     padding-top: 0;
   }
