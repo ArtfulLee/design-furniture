@@ -3,6 +3,10 @@
   background-color: var(--background-color-light);
 }
 
+.footer a:hover {
+  opacity: 0.8;
+}
+
 .footer__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +62,7 @@
 .footer__callium {
   padding: 10px 0;
   color: var(--button-background-primary);
-  text-align: center;
+  text-align: end;
   font-family: 'Avenir Next', sans-serif;
   font-size: 10px;
   font-style: normal;
@@ -74,6 +78,10 @@
 }
 
 @media (max-width: 767px) {
+  .footer__callium {
+    text-align: center;
+  }
+
   .footer__logo,
   .footer__contacts,
   .footer__menu {
