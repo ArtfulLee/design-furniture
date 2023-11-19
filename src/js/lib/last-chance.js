@@ -5,7 +5,7 @@ function lastChance() {
     slidesPerView: 1,
     spaceBetween: 16,
     breakpoints: {
-      321: {
+      319: {
         slidesPerView: 1,
         spaceBetween: 16,
         pagination: {
