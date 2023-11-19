@@ -239,7 +239,12 @@
         <div class="last-chance__header mt-73">
           <h2>ПОСЛЕДНИЙ ШАНС</h2>
         </div>
-        <div class="swiper-container last-chance__slider">
+        <div class="last-chance__tabs">
+          <div class="last-chance__tab-item active" data-id="chairs">Стулья</div>
+          <div class="last-chance__tab-item" data-id="sofas">Диваны</div>
+          <div class="last-chance__tab-item" data-id="armchairs">Кресла</div>
+        </div>
+        <div id="chairs" class="swiper-container last-chance__slider last-chance__tab-chairs last-chance__tab active">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="last-chance__item">
@@ -340,6 +345,8 @@
           <div class="swiper-scrollbar last-chance__slider-scrollbar"></div>
           <div class="swiper-pagination last-chance__slider-pagination"></div>
         </div>
+        <div id="sofas" class="last-chance__tab"></div>
+        <div id="armchairs" class="last-chance__tab"></div>
       </section>
     </main>
 
@@ -382,5 +389,6 @@
     <script src="src/js/lib/reviews-slider.js"></script>
     <script src="src/js/lib/last-chance.js"></script>
     <script src="src/js/burger-menu/burger-menu.js"></script>
+    <script src="src/js/tabs/tabs.js"></script>
   </body>
 </html>
